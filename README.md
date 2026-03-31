@@ -29,5 +29,12 @@ The dataset is already included in this repository at:
 - `snakemake_data/yeast/reads`
 - `snakemake_data/yeast/transcriptome`
 
+## Course revision notes
+Install setq instead of FastX since the latter is no longer maintained
+
+```bash
+conda install -c bioconda seqtk
+```
+
 Use these paths as inputs while following the lesson:
 https://carpentries-incubator.github.io/snakemake-novice-bioinformatics/index.html
